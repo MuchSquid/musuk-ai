@@ -79,7 +79,7 @@ footer{background:#0C100C;color:#B9C3B5;padding:44px 0;font-size:14px}
 footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 footer a{text-decoration:none;color:#fff}
 .disclaimer{font-size:12px;opacity:.7;margin-top:10px;max-width:520px}
-.wa-float{position:fixed;right:20px;bottom:20px;z-index:30;background:#25D366;color:#fff;border-radius:999px;padding:14px 18px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.2);display:flex;gap:8px;align-items:center;font-size:14px}
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:30;background:#0E7A3E;color:#fff;border-radius:999px;padding:14px 18px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.2);display:flex;gap:8px;align-items:center;font-size:14px}
 .crumb{font-size:13px;opacity:.7;margin-bottom:14px}.crumb a{text-decoration:none}
 table.spec{width:100%;border-collapse:collapse;font-size:14.5px}
 table.spec th,table.spec td{text-align:left;padding:12px;border-bottom:1px solid var(--line)}
