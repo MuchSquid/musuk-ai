@@ -40,8 +40,8 @@
       var tickets = {'automatizacion':25000,'software-a-medida':35000,'paginas-web':10000};
       var servicio = data.get('servicio');
       var btn = form.querySelector('button[type=submit]'); btn.disabled = true; btn.textContent = 'Enviando…';
-      var go = function(){ location.href = (form.getAttribute('data-base')||'') + 'gracias/?s=' + encodeURIComponent(servicio) + (DEBUG?'&debug=1':''); };
-      var done = false; var once = function(){ if(!done){ done = true; go(); } };
+      var go = function(){ location.href = (form.getAttribute('data-base')||'') + 'gracias/?servicio=' + encodeURIComponent(servicio) + (DEBUG?'&debug=1':''); };
+      var done = false; var once = function(){ if(!done){ done = true; setTimeout(go, 400); } };
       ev('generate_lead', {
         form_id: 'diagnostico', servicio: servicio, tamano_empresa: data.get('tamano') || 'no_indica',
         cta_location: page, currency: 'PEN', value: Math.round((tickets[servicio]||10000)*0.04), event_callback: once, event_timeout: 1500
