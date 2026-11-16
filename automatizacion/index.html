@@ -8,6 +8,7 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'});
   gtag('js', new Date());
   gtag('config', 'G-Z9DMF04YY6', /[?&]debug=1/.test(location.search) ? {debug_mode: true} : {});
 </script>
@@ -22,7 +23,8 @@
 <meta name="theme-color" content="#121712">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="../assets/styles.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "name": "Musuk AI", "url": "https://muchsquid.github.io/musuk-ai/", "areaServed": "PE", "description": "Automatización de procesos con IA supervisada, software a medida y páginas web para pymes peruanas."}, {"@type": "Service", "name": "Automatización de procesos", "provider": {"@type": "Organization", "name": "Musuk AI"}, "areaServed": "PE", "url": "https://muchsquid.github.io/musuk-ai/automatizacion/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Qué procesos conviene automatizar primero?", "acceptedAnswer": {"@type": "Answer", "text": "Los que se repiten todos los días, tienen reglas claras y hoy dependen de copiar y pegar: pedidos, conciliaciones, reportes."}}, {"@type": "Question", "name": "¿Funciona con WhatsApp Business?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. El flujo se conecta a WhatsApp Business API y deja trazabilidad de cada pedido."}}, {"@type": "Question", "name": "¿Cómo sé si funcionó?", "acceptedAnswer": {"@type": "Answer", "text": "Medimos tiempo y errores del proceso antes del piloto y los comparamos con el mismo proceso después."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://muchsquid.github.io/musuk-ai/"}, {"@type": "ListItem", "position": 2, "name": "Automatización de procesos", "item": "https://muchsquid.github.io/musuk-ai/automatizacion/"}]}]}</script>
 </head><body data-page="automatizacion"><header class="top"><div class="wrap">
@@ -55,7 +57,7 @@
 <label class="full">¿Qué proceso quieres mejorar?<textarea name="proceso" placeholder="Ej.: recibimos pedidos por WhatsApp y los pasamos a Excel a mano."></textarea></label>
 <div class="full form-error" role="alert"></div>
 <button class="btn btn-dark full" type="submit">Solicitar diagnóstico</button>
-<p class="legal full">Sitio ficticio para un proyecto académico (UTEC). No se almacenan tus datos: el envío solo registra un evento anónimo en Google Analytics.</p>
+<p class="legal full">Sitio ficticio para un proyecto académico (UTEC). No se almacenan tus datos: el envío solo registra un evento anónimo en Google Analytics (Ley 29733).</p>
 </form></div></section>
 <section><div class="wrap"><h2>Preguntas frecuentes</h2><div class="faq"><button aria-expanded="false">¿Qué procesos conviene automatizar primero?</button><div class="a">Los que se repiten todos los días, tienen reglas claras y hoy dependen de copiar y pegar: pedidos, conciliaciones, reportes.</div></div><div class="faq"><button aria-expanded="false">¿Funciona con WhatsApp Business?</button><div class="a">Sí. El flujo se conecta a WhatsApp Business API y deja trazabilidad de cada pedido.</div></div><div class="faq"><button aria-expanded="false">¿Cómo sé si funcionó?</button><div class="a">Medimos tiempo y errores del proceso antes del piloto y los comparamos con el mismo proceso después.</div></div></div></section>
 </main>
