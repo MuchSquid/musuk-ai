@@ -3,7 +3,6 @@
   var DEBUG = /[?&]debug=1/.test(location.search);
   function ev(name, params){
     params = params || {};
-    if (DEBUG) params.debug_mode = true;
     if (typeof gtag === 'function') gtag('event', name, params);
   }
   window.musukEvent = ev;
