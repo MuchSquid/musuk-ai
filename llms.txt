@@ -1,0 +1,12 @@
+# Musuk AI
+> Marca ficticia (proyecto académico UTEC 2026). Automatización de procesos con IA supervisada, software a medida y páginas web para pymes peruanas.
+
+## Servicios
+- [Automatización de procesos](https://muchsquid.github.io/musuk-ai/automatizacion/): pedidos por WhatsApp clasificados por IA y validados por una persona, aprobaciones por rol, reportes automáticos. Desde S/ 25 mil, por fases.
+- [Software a medida](https://muchsquid.github.io/musuk-ai/software-a-medida/): módulos de inventario, despacho y operaciones con tablero y alertas. Desde S/ 35 mil.
+- [Páginas web empresariales](https://muchsquid.github.io/musuk-ai/paginas-web/): web móvil con formulario trazable, SEO y GA4. Desde S/ 10 mil.
+
+## Datos clave
+- Cliente: pymes peruanas (10–200 colaboradores) que operan con WhatsApp y Excel.
+- Diferencial: IA que sugiere y persona que valida; demo con el proceso real del cliente antes de pagar.
+- Contacto: diagnóstico gratuito de 20 minutos en https://muchsquid.github.io/musuk-ai/#contacto
